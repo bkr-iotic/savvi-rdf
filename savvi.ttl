@@ -204,7 +204,7 @@ savvi:ContactPoint
 savvi:contactPointSystem
     a rdf:Property ;
     rdfs:label "System"@en ;
-    rdfs:comment "Telecommunications form for contact point - what communications system is required to make use of the contact. one of phone, email, sms
+    rdfs:comment "Telecommunications form for contact point - what communications system is required to make use of the contact. one of phone, email, sms"@en ;
     rdfs:domain savvi:ContactPoint ;
     rdfs:range savvi:ContactPointSystem
 .
