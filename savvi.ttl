@@ -327,7 +327,7 @@ savvi:ContactMethod
 
 savvi:Phone
     a savvi:ContactMethod ;
-    a savvi:ContactPointSystem
+    a savvi:ContactPointSystem ;
     rdfs:label "phone"@en ;
 .
 
@@ -353,7 +353,7 @@ savvi:WebForm
 
 savvi:Email
     a savvi:ContactMethod ;
-    a savvi:ContactPointSystem
+    a savvi:ContactPointSystem ;
     rdfs:label "email"@en ;
 .
 
@@ -495,7 +495,7 @@ savvi:relatesToCase
     a rdf:Property ;
     rdfs:label "case"@en ;
     rdfs:domain savvi:ContactEvent ;
-    rdfs:domain savvi:Need
+    rdfs:domain savvi:Need ;
     rdfs:range savvi:Case ;
 .
 
@@ -630,7 +630,7 @@ savvi:actionDate
 
 savvi:attributeType
     a rdf:Property ;
-    rdfs:label "Type"@en
+    rdfs:label "Type"@en ;
     rdfs:comment "The type of Attribute - one of Circumstance, Event, Risk, Service"@en ;
     rdfs:domain savvi:Attribute ;
     rdfs:range savvi:AttributeType ;
@@ -729,7 +729,7 @@ savvi:contactMethod
     a rdf:Property ;
     rdfs:label "ContactMethod"@en ;
     rdfs:comment ""@en ;
-    rdfs:domain savvi:ContactEvent
+    rdfs:domain savvi:ContactEvent ;
     rdfs:range savvi:ContactMethod ;
 .
 
@@ -811,6 +811,7 @@ savvi:organisationType
     rdfs:comment "To indicate the type of the Organisation."@en ;
     rdfs:domain savvi:Organisation ;
     rdfs:range savvi:OrganisationType ;
+.
 
 savvi:organisationName
     a rdf:Property ;
