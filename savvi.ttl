@@ -157,12 +157,6 @@ savvi:postcode
     rdfs:range xsd:string
 .
 
-
-    a rdf:Property ;
-    rdfs:label ""@en ;
-    rdfs:comment ""@en ;
-.
-
 savvi:Characteristic
     a rdfs:Class ;
     rdfs:label "Characteristic"@en ;
@@ -609,13 +603,6 @@ savvi:situationAssessedBy
     rdfs:label "by"@en ;
     rdfs:domain savvi:SituationAssessment ;
     rdfs:range savvi:ResponsibleOrganisation ;
-.
-
-
-    a rdf:Property ;
-    rdfs:label ""@en ;
-    rdfs:domain  ;
-    rdfs:range  ;
 .
 
 # Attribute Properties
