@@ -737,7 +737,7 @@ savvi:contactDirection
     a rdf:Property ;
     rdfs:label "ContactDirection"@en ;
     rdfs:comment "To indicate if the contact was initiated by the Subject or a support organisation. One-off, outbound or inbound."@en ;
-    rdfs:domain savvi:Case ;
+    rdfs:domain savvi:ContactEvent ;
     rdfs:range savvi:ContactDirection ;
 .
 
